@@ -358,7 +358,7 @@ output saat belum diklik icon gambarnya
 
 
 
-output setelah salah satu icon diklik maka gambar ikon nya akan berganti
+output setelah salah satu icon diklik maka gambar icon nya akan berganti
 
 <img width="470" alt="js image" src="https://github.com/faoziah28/Praktikum-Web-1/assets/152271367/0be5f023-fc3d-4690-b2d6-22f6b50f64e0">
 
