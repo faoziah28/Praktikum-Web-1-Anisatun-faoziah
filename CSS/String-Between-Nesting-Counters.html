@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;
+  content: counters(section,".") " ";
+}
+</style>
+</head>
+<body>
+
+<ol>
+  <li>Burber</li>
+  <li>Mie  
+  <ol>
+    <li>Bakso</li>
+    <li>Sate</li>
+    <li>Sambel</li>
+    <ol>
+      <li>ayam</li>
+      <li>Lele</li>
+      <li>Nila</li>
+    </ol>
+    </li>
+    <li>Ikan</li>
+  </ol>
+  </li>
+  <li>Nasgor</li>
+  <li>Pecel</li>
+</ol>
+
+<ol>
+  <li>Mendoan</li>
+  <li>Tahu goreng</li>
+</ol>
+
+</body>
+</html>

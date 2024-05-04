@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  counter-reset: section;
+}
+
+h1 {
+  counter-reset: subsection;
+}
+
+h1::before {
+  counter-increment: section;
+  content: "Section " counter(section) ". ";
+}
+
+h2::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
+</style>
+</head>
+<body>
+
+
+<h1>Rapunzel</h1>
+<h2>Snow White</h2>
+<h2>Doraemon</h2>
+<h2>Nobita</h2>
+<h2>Giant</h2>
+
+<h1>Youtube</h1>
+<h2>Instagram</h2>
+<h2>Tik tok</h2>
+<h2>Facebook</h2>
+
+<h1>Gunung Merapi</h1>
+<h2>Sungai Nil</h2>
+<h2>Sungai Amazon</h2>
+<h2>Kepulauan Seribu</h2>
+
+</body>
+</html>
